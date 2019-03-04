@@ -5,7 +5,27 @@
  */
 
 /* = = Global Properties = = */
-/* -- Shrink Padding on field rows */
+/* -- ALL Fields Format */
+.field-text, .field-label {
+    padding: 0 !important;
+}
+.field-row {
+    min-height:0 !important;
+}
+.field-label {
+    font-weight: 800;
+}
+/* -- Important Fields Format */
+li[data-field-id="companyJobID"] > div > div.field-text
+,li[data-field-id="extraField222152"] > div > div.field-text
+,li[data-field-id="extraField185084"] > div > div.field-text
+ {
+  font-size: 1.765em;
+  font-weight: 800;
+  padding: 4px !important;
+  background: #f2f2f2;
+}
+
 
 /* = = Primary Panel = = */
 /* -- Phone Number */
@@ -14,6 +34,7 @@ p[data-v-dd4bd772] {
 }
 
 /* = = Feed = = */
+
 /* -- Re-order Items */
 /* -- -- 1 - Set items to Flex */
 div.feed-item-content > div {
