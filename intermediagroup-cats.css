@@ -6,12 +6,6 @@
 
 /* = = Global Properties = = */
 /* -- Shrink Padding on field rows */
-.field-row {
-  min-height: 0 !important;
-}
-.field-label, .field-tex {
-	padding:0 !important;
-}
 
 /* = = Primary Panel = = */
 /* -- Phone Number */
