@@ -6,12 +6,66 @@
 
 /* = = Global Properties = = */
 /* -- Shrink Padding on field rows */
-.field-row .field-tex {
-	padding:0;
+.field-row {
+  min-height: 0 !important;
+}
+.field-label, .field-tex {
+	padding:0 !important;
 }
 
-/* = = Primary Panel = = */ 
+/* = = Primary Panel = = */
 /* -- Phone Number */
 p[data-v-dd4bd772] {
     font-size: 2em;
+}
+
+/* = = Feed = = */
+/* -- Re-order Items */
+/* -- -- 1 - Set items to Flex */
+div.feed-item-content > div {
+    display: flex;
+    flex-direction: column;
+}
+
+/* -- -- 2 - Set items to Flex */
+/* -- Terciary Information */
+span.tertiary-info {
+    color: black;
+}
+
+
+/* Hide Statuses */
+.field-change-status-statuses > div:nth-child(1)
+,.field-change-status-statuses > div:nth-child(2)
+,.field-change-status-statuses > div:nth-child(4)
+,.field-change-status-statuses > div:nth-child(6)
+,.field-change-status-statuses > div:nth-child(7)
+,.field-change-status-statuses > div:nth-child(12)
+,.field-change-status-statuses > div:nth-child(13)
+,.field-change-status-statuses > div:nth-child(14)
+,.field-change-status-statuses > div:nth-child(15)
+,.field-change-status-statuses > div:nth-child(16)
+,.field-change-status-statuses > div:nth-child(18)
+,.field-change-status-statuses > div:nth-child(19)
+,.field-change-status-statuses > div:nth-child(20)
+,.field-change-status-statuses > div:nth-child(21)
+,.field-change-status-statuses > div:nth-child(29)
+,.field-change-status-statuses > div:nth-child(31)
+,.field-change-status-statuses > div:nth-child(36)
+,.field-change-status-statuses > div:nth-child(37)
+,.field-change-status-statuses > div:nth-child(38)
+,.field-change-status-statuses > div:nth-child(39)
+,.field-change-status-statuses > div:nth-child(40)
+,.field-change-status-statuses > div:nth-child(41)
+,.field-change-status-statuses > div:nth-child(42)
+,.field-change-status-statuses > div:nth-child(43)
+,.field-change-status-statuses > div:nth-child(44)
+,.field-change-status-statuses > div:nth-child(45)
+,.field-change-status-statuses > div:nth-child(46)
+,.field-change-status-statuses > div:nth-child(47)
+,.field-change-status-statuses > div:nth-child(48)
+,.field-change-status-statuses > div:nth-child(49)
+
+ {
+  display:none;
 }
