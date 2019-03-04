@@ -1,0 +1,17 @@
+/*
+ * CSS Style Overwrites for:
+ * intermediagroup.catsone.com
+ * March 2019
+ */
+
+/* = = Global Properties = = */
+/* -- Shrink Padding on field rows */
+.field-row .field-tex {
+	padding:0;
+}
+
+/* = = Primary Panel = = */ 
+/* -- Phone Number */
+p[data-v-dd4bd772] {
+    font-size: 2em;
+}
