@@ -4,6 +4,11 @@
  * March 2019
  */
 
+/* Panel - Job Description */
+div [data-block-id="description"] {
+    width: 1095px;
+}
+
 /* = = Global Properties = = */
 /* -- ALL Fields Format */
 .field-text, .field-label {
