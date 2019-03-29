@@ -10,6 +10,10 @@ div [data-block-id="description"] {
 }
 
 /* = = Global Properties = = */
+/* -- Field Highlights Colors */
+.datagrid-filters, .datagrid-search.filtered, button.enhanced-select-btn.filtered {
+  background:#a17fc5;
+}
 /* -- ALL Fields Format */
 .field-text, .field-label {
     padding: 0 !important;
@@ -37,6 +41,20 @@ li[data-field-id="companyJobID"] > div > div.field-text
 p[data-v-dd4bd772] {
     font-size: 2em;
 }
+/* = = Pipeline = = */
+/* Rows */
+.datagrid td>div {
+    overflow: hidden;
+    padding: 4px 0 0 0;
+    margin-right: 0;
+    height: 18px;
+    line-height: 18px;
+}
+
+/* -- Status Column */
+th#th-status {
+  width:50px !important;
+}
 
 /* = = Feed = = */
 
@@ -52,7 +70,6 @@ div.feed-item-content > div {
 span.tertiary-info {
     color: black;
 }
-
 
 /* Hide Statuses */
 .field-change-status-statuses > div:nth-child(1)
