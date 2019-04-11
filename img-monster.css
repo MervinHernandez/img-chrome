@@ -1,0 +1,33 @@
+/*
+ * CSS Style Overwrites for:
+ * hiring.monster.com
+ * April 2019
+ */
+
+/* Resume Row */
+/* -- Name */
+#linkResumeTitle {
+    color: #0161b2 !important;
+    font-size: 1.69em;
+}
+ /* -- Link to Candidate */
+ .newWindowLink {
+    width: 200%;
+    background: #0161b2;
+    padding: 2px 10px 2px 10px;
+}
+/* -- Viewed Link Notice */
+span#ViewedLabel {
+    font-size: 1.75em;
+    position: relative;
+    margin-top: -20px;
+    left: 27px;
+    color: white;
+}
+/* -- Hilights */
+#dateModified
+,.Resume-location
+,#highestEducationDegree {
+    font-size: 1.75em;
+    background: yellow;
+}
