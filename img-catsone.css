@@ -85,13 +85,13 @@ span.tertiary-info {
 ,.field-change-status-statuses > div:nth-child(14)
 ,.field-change-status-statuses > div:nth-child(15)
 ,.field-change-status-statuses > div:nth-child(16)
-,.field-change-status-statuses > div:nth-child(18)
+,.field-change-status-statuses > div:nth-child(17)
 ,.field-change-status-statuses > div:nth-child(19)
 ,.field-change-status-statuses > div:nth-child(20)
 ,.field-change-status-statuses > div:nth-child(21)
-,.field-change-status-statuses > div:nth-child(29)
-,.field-change-status-statuses > div:nth-child(31)
-,.field-change-status-statuses > div:nth-child(36)
+,.field-change-status-statuses > div:nth-child(22)
+,.field-change-status-statuses > div:nth-child(30)
+,.field-change-status-statuses > div:nth-child(32)
 ,.field-change-status-statuses > div:nth-child(37)
 ,.field-change-status-statuses > div:nth-child(38)
 ,.field-change-status-statuses > div:nth-child(39)
@@ -105,6 +105,7 @@ span.tertiary-info {
 ,.field-change-status-statuses > div:nth-child(47)
 ,.field-change-status-statuses > div:nth-child(48)
 ,.field-change-status-statuses > div:nth-child(49)
+,.field-change-status-statuses > div:nth-child(50)
 
  {
   display:none;
