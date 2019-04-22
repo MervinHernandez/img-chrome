@@ -17,6 +17,9 @@ div [data-block-id="description"] {
 .datagrid-search.filtered, button.enhanced-select-btn.filtered {
   color:white;
 }
+.checked.filtered:hover, .datagrid-search.filtered:hover, a.btn.filtered:hover, button.enhanced-select-btn.active.filtered:hover, button.enhanced-select-btn.filtered:hover, select.filtered:hover {
+    background-color: #654591;
+}
 /* -- ALL Fields Format */
 .field-text, .field-label {
     padding: 0 !important;
