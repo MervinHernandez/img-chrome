@@ -7,6 +7,8 @@
 /* Panel - Job Description */
 div [data-block-id="description"] {
     width: 1095px;
+    z-index: 900;
+    box-shadow: 0;
 }
 
 /* = = Global Properties = = */
