@@ -1,8 +1,8 @@
 /*
- * CSS Style Overwrites for:
- * intermediagroup.catsone.com
- * Steve Edition v2019.04-.29.02
- */
+* CSS Style Overwrites for:
+* intermediagroup.catsone.com
+* Steve Edition v2019.04.30.01
+*/
 
 /* Panel - Job Description */
 div [data-block-id="description"] {
@@ -34,7 +34,7 @@ div [data-block-id="description"] {
 li[data-field-id="companyJobID"] > div > div.field-text
 ,li[data-field-id="extraField222152"] > div > div.field-text
 ,li[data-field-id="extraField185084"] > div > div.field-text
- {
+{
   font-size: 1.765em;
   font-weight: 800;
   padding: 4px !important;
@@ -55,6 +55,9 @@ p[data-v-dd4bd772] {
     margin-right: 0;
     height: 18px;
     line-height: 18px;
+}
+th#th-title {
+    width: 600px !important;
 }
 
 /* -- Status Column */
