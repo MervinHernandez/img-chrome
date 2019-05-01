@@ -65,19 +65,16 @@ th#th-status {
 }
 
 /* = = Feed = = */
-
-/* -- Re-order Items */
-/* -- -- 1 - Set items to Flex */
-div.feed-item-content > div {
-    display: flex;
-    flex-direction: column;
+/* -- Re order timestamp, and make it black */
+div.feed-item-timestamp {
+    top: 12px;
+    bottom: unset !important;
+    right: 66px !important;
+}
+div.feed-item-timestamp > span {
+  color:black !important;
 }
 
-/* -- -- 2 - Set items to Flex */
-/* -- Terciary Information */
-span.tertiary-info {
-    color: black;
-}
 
 /* Hide Statuses */
 .field-change-status-statuses > div:nth-child(1)
