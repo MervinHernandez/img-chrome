@@ -1,7 +1,7 @@
 /*
 * CSS Style Overwrites for:
 * intermediagroup.catsone.com
-* Steve Edition v2019.04.30.01
+* Steve Edition v2019.05.01.1043
 */
 
 /* Panel - Job Description */
@@ -49,6 +49,9 @@ p[data-v-dd4bd772] {
 }
 /* = = Pipeline = = */
 /* Rows */
+td > div > span.tertiary-info {
+    display: none;
+}
 .datagrid td>div {
     overflow: hidden;
     padding: 4px 0 0 0;
