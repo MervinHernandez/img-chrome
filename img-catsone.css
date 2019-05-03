@@ -1,7 +1,7 @@
 /*
  * CSS Style Overwrites for:
  * intermediagroup.catsone.com
- * March 2019
+ * Version 2019.05.02.1241
  */
 
 /* Panel - Job Description */
@@ -46,8 +46,8 @@ li[data-field-id="companyJobID"] > div > div.field-text
 
 /* = = Primary Panel = = */
 /* -- Phone Number */
-p[data-v-dd4bd772] {
-    font-size: 2em;
+.field-type-phones > div > div > div > p {
+    font-size: 2.5em;
 }
 /* = = Pipeline = = */
 /* Rows */
@@ -67,9 +67,8 @@ th#th-status {
 /* = = Feed = = */
 /* -- Re order timestamp, and make it black */
 div.feed-item-timestamp {
-    top: 12px;
-    bottom: unset !important;
-    right: 66px !important;
+  /* bottom: 107px !important;
+  right: 57px !important; */
 }
 div.feed-item-timestamp > span {
   color:black !important;
