@@ -1,7 +1,7 @@
 /*
  * CSS Style Overwrites for:
  * intermediagroup.catsone.com
- * Version 2019.05.03.1336
+ * Version 2019.06.18.1236
  */
 
 /* Panel - Job Description */
@@ -12,6 +12,13 @@ div [data-block-id="description"] {
 }
 
 /* = = Global Properties = = */
+/* Browser text highlight color */
+::selection {
+  background: #ad81ce; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ad81ce; /* Gecko Browsers */
+}
 /* -- Field Highlights Colors */
 .datagrid-filters, .datagrid-search.filtered, button.enhanced-select-btn.filtered {
   background:#a17fc5;
