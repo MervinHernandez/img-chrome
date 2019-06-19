@@ -1,12 +1,15 @@
 /*
 * CSS Style Overwrites for:
 * intermediagroup.catsone.com
-* Steve Edition v2019.05.01.1043
+* Steve Edition
+* Version 2019.06.19.1700
 */
 
 /* Panel - Job Description */
-div [data-block-id="description"] {
+.form-columns > div > div:nth-child(6) {
     width: 1095px;
+    z-index: 900;
+    box-shadow: 0;
 }
 
 /* = = Global Properties = = */
