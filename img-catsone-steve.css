@@ -2,7 +2,7 @@
 * CSS Style Overwrites for:
 * intermediagroup.catsone.com
 * Steve Edition
-* Version 2019.06.20.1202
+* Version 2019.06.21.1300
 */
 
 /* Panel - Job Description */
@@ -47,7 +47,7 @@ li[data-field-id="companyJobID"] > div > div.field-text
 
 /* = = Primary Panel = = */
 /* -- Phone Number */
-p[data-v-dd4bd772] {
+li[data-field-id="phoneNumbers"] > div > div > div > p {
     font-size: 2em;
 }
 /* = = Pipeline = = */
